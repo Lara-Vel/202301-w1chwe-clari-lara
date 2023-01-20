@@ -1,0 +1,23 @@
+{
+  "name": "202301-w1chwe-clari-lara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lara-Vel/202301-w1chwe-clari-lara.git"
+  },
+  "author": "Clari & Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lara-Vel/202301-w1chwe-clari-lara/issues"
+  },
+  "homepage": "https://github.com/Lara-Vel/202301-w1chwe-clari-lara#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
