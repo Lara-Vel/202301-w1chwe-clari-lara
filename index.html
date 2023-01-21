@@ -11,7 +11,9 @@
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Rubik:wght@400;700&display=swap"
     rel="stylesheet">
   <title>Travellian Clari & Lara</title>
+  <link rel="stylesheet" href="resets.css">
   <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
@@ -36,6 +38,37 @@
       </section>
     </nav>
   </header>
+  <main>
+    <section class="title-container">
+      <h1 class="title__main-heading">Start your unforgettable journey with us.</h1>
+      <h2 class="title__sub-heading">The best travel for your journey begins now</h2>
+    </section>
+
+    <form class="form-container">
+      <div class="form__options">
+        <div class="options__destination">
+          <label for="destination" class="option__title">Destination</label>
+          <input type="text" id="destination" name="booking" class="option__input">
+        </div>
+        <div class="options__person">
+          <label for="person" class="option__title">Person</label>
+          <input type="number" id="person" name="booking" class="option__input">
+        </div>
+        <div class="options__check-in">
+          <label for="check-in" class="option__title">Check in</label>
+          <input type="date" id="check-in" for="booking" class="option__input">
+        </div>
+        <div class="options__check-out">
+          <label for="check-out" class="option__title">Check out</label>
+          <input type="date" id="check-out" name="booking" class="option__input">
+        </div>
+      </div>
+      <button type="submit" class="button-container">
+        <p class="button__text">Book now</p>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </form>
+  </main>
 </body>
 
 </html>
