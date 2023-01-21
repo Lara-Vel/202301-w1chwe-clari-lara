@@ -101,6 +101,17 @@
   text-transform: uppercase;
 }
 
+.buttons-container {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.buttons__left-slider {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
 .athens-container,
 .rome-container {
   display: none;
