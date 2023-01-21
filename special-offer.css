@@ -1,0 +1,31 @@
+.special-offer-section {
+  padding: 5rem 1rem;
+  margin: 0;
+}
+
+.athens-container,
+.rome-container {
+  display: none;
+}
+
+.section-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.title__main-heading {
+  border-bottom: 3px solid #ff7757;
+  padding-bottom: 1.25rem;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #172432;
+}
+
+.title__sub-heading {
+  font-family: Rubik;
+  color: #767e86;
+  font-size: 1.2rem;
+}
