@@ -18,37 +18,41 @@
   <link rel="stylesheet" href="resets.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="special-offer.css">
+  <link rel="stylesheet" href="trip-planners.css">
+  <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
-  <header class="header-container">
-    <div class="logo-container">
-      <img src="\assets\Vectortravellian-icon.svg" alt="travellian logo icon" class="logo-container__icon">
-      <img src="\assets\Travellianlogo-name.svg" alt="travellian logo name" class="logo-container__name">
-    </div>
+  <section class="home-section">
+    <header class="header-container">
+      <div class="logo-container">
+        <img src="\assets\Vectortravellian-icon.svg" alt="travellian logo icon" class="logo-container__icon">
+        <img src="\assets\Travellianlogo-name.svg" alt="travellian logo name" class="logo-container__name">
+      </div>
 
-    <input class="header-container__checkbox" type="checkbox" id="nav-menu">
-    <label class="header-container__menu-icon" for="nav-menu"><i class="fa-solid fa-bars"></i></label>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="#" class="nav-list__item">Home</a></li>
-        <li><a href="#" class="nav-list__item">Explore</a></li>
-        <li><a href="#" class="nav-list__item">Travel</a></li>
-        <li><a href="#" class="nav-list__item">Blog</a></li>
-        <li><a href="#" class="nav-list__item">Pricing</a></li>
-      </ul>
-      <section class="user-access-container">
-        <hr class="user-access__separator">
-        <p class="user-access__login">Login</p>
-        <button class="user-access__sign-up">Sign up</button>
-      </section>
-    </nav>
+      <input class="header-container__checkbox" type="checkbox" id="nav-menu">
+      <label class="header-container__menu-icon" for="nav-menu"><i class="fa-solid fa-bars"></i></label>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-list__item">Home</a></li>
+          <li><a href="#" class="nav-list__item">Explore</a></li>
+          <li><a href="#" class="nav-list__item">Travel</a></li>
+          <li><a href="#" class="nav-list__item">Blog</a></li>
+          <li><a href="#" class="nav-list__item">Pricing</a></li>
+        </ul>
+        <section class="user-access-container">
+          <hr class="user-access__separator">
+          <p class="user-access__login">Login</p>
+          <button class="user-access__sign-up">Sign up</button>
+        </section>
+      </nav>
+    </header>
 
-  </header>
-  <main>
     <section class="title-container">
-      <h1 class="title__main-heading">Start your unforgettable journey with us.</h1>
-      <h2 class="title__sub-heading">The best travel for your journey begins now</h2>
+      <h1 class="home-title__main-heading">Start your unforgettable journey with us.</h1>
+      <h2 class="home-title__sub-heading">The best travel for your journey begins now</h2>
     </section>
 
     <form class="form-container">
@@ -75,6 +79,9 @@
         <i class="fa-solid fa-arrow-right"></i>
       </button>
     </form>
+  </section>
+
+  <section class="popular-destinations-section">
     <section class="title">
       <div class="title__page">
         <h2>Popular Destinations</h2>
@@ -137,7 +144,261 @@
           <img src="assets/icons/Slide-right 1slide-right.png" alt="right slider button">
         </div>
       </div>
-  </main>
+    </section>
+  </section>
+
+  <section class="special-offer-section">
+    <section class="reversed-section-header-container">
+      <section class="header__title-container header__title-container--align-right">
+        <h2 class="title__main-heading">Special Offer</h2>
+        <p class="title__sub-heading">Check out our special offer and discounts</p>
+      </section>
+      <div class="header__buttons-container">
+        <img src="/assets/icons/chevron-downleft-slider.png" alt="slide left" class="buttons__left-slider">
+        <img src="/assets/icons/Slide-right 1slide-right.png" alt="slide right" class="buttons__right-slider">
+      </div>
+    </section>
+
+    <section class="grouped-cards-container">
+      <section class="destination-card-container">
+        <img src="/assets/lisboa.png" alt="Lisbon city rooftops with cathedral in the background" class="card__image">
+        <div class="card__information">
+          <header class="card-header-container">
+            <h2 class="card-header__title">Lisbon, Portugal</h2>
+            <div class="card-header__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </header>
+          <p class="card__destination-description">
+            5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance.
+            Passage
+            and going through the cites of the world in classical lterature.
+          </p>
+          <div class="card__more-info">
+            <p class="card__text">From <span class="card__price">500€</span></p>
+            <button class="card__button">Details</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="destination-card-container athens-container">
+        <img src="/assets/athens-image.png" alt="Athens parthenon ancient ruins" class="card__image">
+        <div class="card__information">
+          <header class="card-header-container">
+            <h2 class="card-header__title">Athens, Greece</h2>
+            <div class="card-header__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </header>
+          <p class="card__destination-description">
+            5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance.
+            Passage
+            and
+            going through the cites of the world in classical lterature.
+          </p>
+          <div class="card__more-info">
+            <p class="card__text">From <span class="card__price">800€</span></p>
+            <button class="card__button">Details</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="destination-card-container rome-container">
+        <img src="/assets/italy-coast.png" alt="Venice panoramic shot of boats in the water" class="card__image">
+        <div class="card__information">
+          <header class="card-header-container">
+            <h2 class="card-header__title">Rome, Italy</h2>
+            <div class="card-header__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </header>
+          <p class="card__destination-description">
+            5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance.
+            Passage
+            and
+            going through the cites of the world in classical lterature.
+          </p>
+          <div class="card__more-info">
+            <p class="card__text">From <span class="card__price">750€</span></p>
+            <button class="card__button">Details</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="bottom-buttons-container">
+      <img src="/assets/icons/chevron-downleft-slider.png" alt="slide left" class="buttons__left-slider">
+      <img src="/assets/icons/Slide-right 1slide-right.png" alt="slide right" class="buttons__right-slider">
+    </div>
+  </section>
+
+  <section class="our-blog-section">
+
+  </section>
+
+  <section class="trip-planners-section">
+    <section class="section-header-container">
+      <section class="header__title-container">
+        <h2 class="title__main-heading">Trip Planners</h2>
+        <p class="title__sub-heading">20 years from now you will be more disappointed by the things that you didn't do.
+          Stop regretting and start travelling,
+          start throwing off the bowlines.</p>
+      </section>
+      <div class="header__buttons-container">
+        <img src="/assets/icons/chevron-downleft-slider.png" alt="slide left" class="buttons__left-slider">
+        <img src="/assets/icons/Slide-right 1slide-right.png" alt="slide right" class="buttons__right-slider">
+      </div>
+    </section>
+    <button class="more-info-button">View all trip plans</button>
+    <section class="grouped-cards-container">
+      <section class="trip-container">
+        <img src="/assets/rome-image.png" alt="Roman collisseum" class="trip__image">
+        <section class="trip__description trip__description--hidden">
+          <div class="tour-price-container">
+            <p class="price-container__tour-type">GUIDED TOUR</p>
+            <p class="price-container__price">€99/Day</p>
+          </div>
+          <h2 class="description__destination">Rome City Tour</h2>
+          <div class="trip__more-info-container">
+            <div class="more-info__rating">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+            </div>
+            <p class="more-info__tour-duration">7 Days tour</p>
+          </div>
+        </section>
+      </section>
+      <section class="trip-container">
+        <img src="/assets/paris-image.png" alt="Paris Eiffel Tower" class="trip__image">
+        <section class="trip__description">
+          <div class="tour-price-container">
+            <p class="price-container__tour-type">GUIDED TOUR</p>
+            <p class="price-container__price">€95/Day</p>
+          </div>
+          <h2 class="description__destination">Paris City Tour</h2>
+          <div class="trip__more-info-container">
+            <div class="more-info__rating">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+            </div>
+            <p class="more-info__tour-duration">7 Days tour</p>
+          </div>
+        </section>
+      </section>
+      <section class="trip-container">
+        <img src="/assets/madrid-image.png" alt="Madrid metropolis" class="trip__image">
+        <section class="trip__description trip__description--hidden">
+          <div class="tour-price-container">
+            <p class="price-container__tour-type">GUIDED TOUR</p>
+            <p class="price-container__price">€89/Day</p>
+          </div>
+          <h2 class="description__destination">Barcelona City Tour</h2>
+          <div class="trip__more-info-container">
+            <div class="more-info__rating">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+            </div>
+            <p class="more-info__tour-duration">7 Days tour</p>
+          </div>
+        </section>
+      </section>
+      <section class="trip-container">
+        <img src="/assets/budapest-image.png" alt="Budapest old town square" class="trip__image">
+        <section class="trip__description trip__description--hidden">
+          <div class="tour-price-container">
+            <p class="price-container__tour-type">GUIDED TOUR</p>
+            <p class="price-container__price">€89/Day</p>
+          </div>
+          <h2 class="description__destination">Budapest City Tour</h2>
+          <div class="trip__more-info-container">
+            <div class="more-info__rating">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+              <img src="/assets/icons/Vectorstar-yellow.png" alt="yellow start" class="rating__star">
+            </div>
+            <p class="more-info__tour-duration">7 Days tour</p>
+          </div>
+        </section>
+      </section>
+    </section>
+  </section>
+
+  <section class="travellers-experiences-section">
+
+  </section>
+
+  <section class="newsletter-section">
+
+  </section>
+
+  <footer class="footer-container">
+    <section class="footer-logo-container">
+      <div class="footer__logo">
+        <img src="/assets/Vectortravellian-icon.svg" alt="travellian logo" class="footer-logo__icon">
+        <img src="/assets/Travellianlogo-name.svg" alt="travellian name" class="footer-logo__name">
+      </div>
+      <p class="logo-container__copyright">Copyright © Travellian 2020 All rights reserved</p>
+    </section>
+    <section class="info-container">
+      <h4 class="info__title">Menu</h4>
+      <ul class="info__list">
+        <li>Home</li>
+        <li>Explore</li>
+        <li>Travel</li>
+        <li>Blog</li>
+        <li>Pricing</li>
+      </ul>
+    </section>
+    <section class="info-container">
+      <h4 class="info__title">Information</h4>
+      <ul class="info__list">
+        <li>Destinations</li>
+        <li>Support</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy</li>
+      </ul>
+    </section>
+    <section class="info-container">
+      <h4 class="info__title">Contact Info</h4>
+      <ul class="info__list">
+        <li>+123 456 789</li>
+        <li>info@travellian.com</li>
+        <li>1245, New Yourk, USA</li>
+      </ul>
+    </section>
+    <section class="info-container">
+      <h4 class="info__title">Follow us on</h4>
+      <ul class="info__list info__social-media-list">
+        <li><img src="/assets/icons/facebook 1facebook-white.png" alt="facebook icon" class="social-media__icon"></li>
+        <li><img src="assets/icons/Vectorpinterest-white.png" alt="pinterest icon" class="social-media__icon"></li>
+        <li><img src="/assets/icons/Vectorig-white.png" alt="instagram icon" class="social-media__icon"></li>
+        <li><img src="/assets/icons/_x30_4.Twittertwitter-icon.png" alt="twitter icon" class="social-media__icon"></li>
+      </ul>
+    </section>
+  </footer>
 </body>
 
 </html>

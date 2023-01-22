@@ -18,6 +18,7 @@
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 2.5rem;
+  text-align: end;
   color: #172432;
 }
 
@@ -41,6 +42,8 @@
 
 .card__image {
   border-radius: 1.625rem 1.625rem 0rem 0rem;
+  width: 18rem;
+  object-fit: cover;
 }
 
 .card-header-container,
@@ -140,9 +143,14 @@
     display: flex;
     align-items: flex-end;
     gap: 2.5rem;
+    height: 3.43rem;
   }
 
-  .header__title-container {
+  .buttons__left-slider {
+    height: 3.43rem;
+  }
+
+  .header__title-container.header__title-container--align-right {
     align-items: flex-end;
   }
 
