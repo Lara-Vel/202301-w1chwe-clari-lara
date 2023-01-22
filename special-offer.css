@@ -130,7 +130,7 @@
     display: none;
   }
 
-  .section-header-container {
+  .reversed-section-header-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
