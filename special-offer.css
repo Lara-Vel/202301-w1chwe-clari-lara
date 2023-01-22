@@ -120,3 +120,79 @@
 .rome-container {
   display: none;
 }
+
+@media (min-width: 1440px) {
+  .special-offer-section {
+    padding: 8.75rem 2rem;
+  }
+
+  .bottom-buttons-container {
+    display: none;
+  }
+
+  .section-header-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .header__buttons-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 2.5rem;
+  }
+
+  .header__title-container {
+    align-items: flex-end;
+  }
+
+  .title__main-heading {
+    font-size: 4rem;
+  }
+
+  .title__sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .grouped-cards-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .card__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 27.3rem;
+    height: 18rem;
+  }
+
+  .card-header-container,
+  .card__destination-description,
+  .card__more-info {
+    padding: 1.25rem 0 0;
+  }
+
+  .card__information {
+    padding: 1.5rem;
+  }
+
+  .athens-container,
+  .rome-container {
+    display: flex;
+  }
+
+  .card__more-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card__text {
+    font-size: 1.25rem;
+  }
+
+  .card__price {
+    font-size: 2.5rem;
+  }
+}
