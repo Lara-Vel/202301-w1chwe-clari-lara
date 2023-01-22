@@ -41,6 +41,8 @@
 
 .card__image {
   border-radius: 1.625rem 1.625rem 0rem 0rem;
+  width: 18rem;
+  object-fit: cover;
 }
 
 .card-header-container,
