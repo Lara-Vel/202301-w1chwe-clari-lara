@@ -50,9 +50,11 @@
 }
 
 .grouped-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
   padding-top: 3rem;
   margin: 0 auto;
-  gap: 2.5rem;
 }
 
 .trip-container {
