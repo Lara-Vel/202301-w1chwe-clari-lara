@@ -18,6 +18,7 @@
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 2.5rem;
+  text-align: end;
   color: #172432;
 }
 
@@ -144,7 +145,7 @@
     gap: 2.5rem;
   }
 
-  .header__title-container {
+  .header__title-container.header__title-container--align-right {
     align-items: flex-end;
   }
 
