@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #172432;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.title__page h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.7rem;
+  color: #172432;
+  padding-bottom: 0.6rem;
+}
+
+.title__page .title__paragraph {
+  font-size: 1rem;
+  color: #767e86;
+  padding-top: 0.7rem;
+}
+
+.title__page .divider {
+  width: 30%;
+  height: 2px;
+  background: #ff7757;
+}
+
+.title__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.title__image .titleimage-img {
+  position: relative;
+  width: 288px;
+  height: 320px;
+  border-radius: 1rem;
+}
+
+.title__image .titleimage-img:nth-child(2),
+.title__image .titleimage-img:nth-child(3) {
+  display: none;
+}
+
+.title__image .titleimage-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.title__image .titleimage-img .title__image--text {
+  position: absolute;
+  font-family: "Playfair Display", serif;
+  bottom: 15%;
+  color: #fff;
+}
+
+.title__image .titleimage-img .title__image--text p {
+  margin-left: 1rem;
+}
+
+.title__image .titleimage-img .title__image--text svg {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.title__image .titleimage-img .title__image--text div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  padding-top: 0.6rem;
+}
+
+.slide__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem 4rem 1rem 4rem;
+}
+
+.slide__button .slide__button-right img {
+  min-width: 110%;
+}
+
+/* Esto para escritorio */
+@media (min-width: 992px) {
+  .title__image .titleimage-img:nth-child(2),
+  .title__image .titleimage-img:nth-child(3) {
+    display: block;
+  }
+
+  .title__image {
+    flex-direction: unset;
+    gap: 5%;
+  }
+}
