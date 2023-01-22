@@ -143,6 +143,11 @@
     display: flex;
     align-items: flex-end;
     gap: 2.5rem;
+    height: 3.43rem;
+  }
+
+  .buttons__left-slider {
+    height: 3.43rem;
   }
 
   .header__title-container.header__title-container--align-right {

@@ -103,6 +103,16 @@
 }
 
 @media (min-width: 1440px) {
+  .home-section {
+    background-position: absolute;
+    top: 0;
+    background-size: auto;
+    background-position-y: center;
+    background-position-x: center;
+    height: auto;
+    padding-bottom: 6.25rem;
+  }
+
   .title-container {
     padding-left: 2rem;
     padding-right: 15rem;
