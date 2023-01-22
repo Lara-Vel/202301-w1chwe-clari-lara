@@ -1,0 +1,102 @@
+.trip-planners-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5rem 1rem;
+  gap: 2rem;
+  color: #172432;
+}
+
+.header__buttons-container {
+  display: none;
+}
+
+.section-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.title__main-heading {
+  font-family: "Playfair Display";
+  font-size: 2.5rem;
+  font-weight: 400;
+  border-bottom: 3px solid #ff7757;
+  padding-bottom: 1.25rem;
+}
+
+.title__sub-heading {
+  color: #767e86;
+  font-family: RUbik;
+  font-size: 1.125rem;
+}
+
+.more-info-button {
+  font-family: Rubik;
+  font-size: 1.125rem;
+  background-color: #ff7757;
+  color: white;
+  padding: 1.25rem;
+  border: 0;
+  border-radius: 0.75rem;
+}
+
+.grouped-cards-container {
+  padding-top: 3rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+
+.trip-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.trip__image {
+  border-radius: 1.625rem;
+  object-fit: cover;
+  width: 18rem;
+  height: 20rem;
+}
+
+.trip__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1.25rem 0;
+  gap: 0.75rem;
+  font-family: Rubik;
+  font-size: 1.125rem;
+}
+
+.tour-price-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.description__destination {
+  font-size: 1.75rem;
+  font-family: "Playfair Display";
+}
+
+.trip__more-info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.more-info__rating {
+  display: flex;
+  gap: 0.25rem;
+}
