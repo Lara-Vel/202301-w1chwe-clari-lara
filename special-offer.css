@@ -166,6 +166,7 @@
     align-items: flex-start;
     width: 27.3rem;
     height: 18rem;
+    object-fit: cover;
   }
 
   .card-header-container,
