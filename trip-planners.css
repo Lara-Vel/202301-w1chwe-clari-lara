@@ -145,5 +145,6 @@
 
   .more-info-button {
     order: 1;
+    align-self: center;
   }
 }
