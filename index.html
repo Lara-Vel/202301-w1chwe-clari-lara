@@ -18,37 +18,41 @@
   <link rel="stylesheet" href="resets.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="special-offer.css">
+  <link rel="stylesheet" href="trip-planners.css">
+  <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
-  <header class="header-container">
-    <div class="logo-container">
-      <img src="\assets\Vectortravellian-icon.svg" alt="travellian logo icon" class="logo-container__icon">
-      <img src="\assets\Travellianlogo-name.svg" alt="travellian logo name" class="logo-container__name">
-    </div>
+  <section class="home-section">
+    <header class="header-container">
+      <div class="logo-container">
+        <img src="\assets\Vectortravellian-icon.svg" alt="travellian logo icon" class="logo-container__icon">
+        <img src="\assets\Travellianlogo-name.svg" alt="travellian logo name" class="logo-container__name">
+      </div>
 
-    <input class="header-container__checkbox" type="checkbox" id="nav-menu">
-    <label class="header-container__menu-icon" for="nav-menu"><i class="fa-solid fa-bars"></i></label>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="#" class="nav-list__item">Home</a></li>
-        <li><a href="#" class="nav-list__item">Explore</a></li>
-        <li><a href="#" class="nav-list__item">Travel</a></li>
-        <li><a href="#" class="nav-list__item">Blog</a></li>
-        <li><a href="#" class="nav-list__item">Pricing</a></li>
-      </ul>
-      <section class="user-access-container">
-        <hr class="user-access__separator">
-        <p class="user-access__login">Login</p>
-        <button class="user-access__sign-up">Sign up</button>
-      </section>
-    </nav>
+      <input class="header-container__checkbox" type="checkbox" id="nav-menu">
+      <label class="header-container__menu-icon" for="nav-menu"><i class="fa-solid fa-bars"></i></label>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-list__item">Home</a></li>
+          <li><a href="#" class="nav-list__item">Explore</a></li>
+          <li><a href="#" class="nav-list__item">Travel</a></li>
+          <li><a href="#" class="nav-list__item">Blog</a></li>
+          <li><a href="#" class="nav-list__item">Pricing</a></li>
+        </ul>
+        <section class="user-access-container">
+          <hr class="user-access__separator">
+          <p class="user-access__login">Login</p>
+          <button class="user-access__sign-up">Sign up</button>
+        </section>
+      </nav>
+    </header>
 
-  </header>
-  <main>
     <section class="title-container">
-      <h1 class="title__main-heading">Start your unforgettable journey with us.</h1>
-      <h2 class="title__sub-heading">The best travel for your journey begins now</h2>
+      <h1 class="home-title__main-heading">Start your unforgettable journey with us.</h1>
+      <h2 class="home-title__sub-heading">The best travel for your journey begins now</h2>
     </section>
 
     <form class="form-container">
@@ -75,6 +79,8 @@
         <i class="fa-solid fa-arrow-right"></i>
       </button>
     </form>
+  </section>
+  <section class="popular-destinations-section">
     <section class="title">
       <div class="title__page">
         <h2>Popular Destinations</h2>
@@ -137,7 +143,8 @@
           <img src="assets/icons/Slide-right 1slide-right.png" alt="right slider button">
         </div>
       </div>
-  </main>
+    </section>
+  </section>
 </body>
 
 </html>

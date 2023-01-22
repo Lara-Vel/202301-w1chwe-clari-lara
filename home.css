@@ -1,8 +1,12 @@
-body {
-  background-image: url("/assets/main-background-image.png");
-  background-size: 250%;
+.home-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/assets/main-background-image.png");
+  background-position: absolute;
+  top: 0;
+  background-size: 460%;
+  background-position-y: bottom;
   height: auto;
-  background-position-y: 45rem;
+  padding-bottom: 6.25rem;
 }
 
 .title-container {
@@ -16,14 +20,14 @@ body {
   margin: 6.2rem auto 0;
 }
 
-.title__main-heading {
+.home-title__main-heading {
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 2.7rem;
   margin: 0;
 }
 
-.title__sub-heading {
+.home-title__sub-heading {
   font-family: Rubik;
   font-weight: 400;
   font-size: 1.3rem;

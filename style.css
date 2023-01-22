@@ -1,12 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
+.popular-destinations-section {
   font-family: "Playfair Display", serif;
   color: #172432;
+  padding: 5rem 0;
 }
 
 .title {
