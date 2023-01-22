@@ -35,16 +35,49 @@
 
 .nav-bar {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  gap: 2rem;
   position: fixed;
   left: -100%;
   top: 0;
   width: 80%;
   height: 100vh;
-  background-color: #f4f4f4;
-  padding: 1rem 0.5rem 0 1rem;
+  background-color: #ff7757;
+  padding: 2rem 0.5rem 0 1rem;
   transition: all 0.5s ease;
+}
+
+.nav-list,
+.user-access-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-list__item,
+.user-access__login {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.user-access__separator {
+  border: 1px solid white;
+  width: 10rem;
+}
+
+.user-access__sign-up {
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 0.75rem;
+  background-color: white;
+  color: #ff7757;
+  font-family: Rubik;
 }
 
 @media (min-width: 1440px) {
