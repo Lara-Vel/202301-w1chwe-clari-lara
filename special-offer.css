@@ -5,7 +5,7 @@
   padding: 5rem 1rem;
 }
 
-.section-title-container {
+.header__title-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -25,6 +25,10 @@
   font-family: Rubik;
   color: #767e86;
   font-size: 1.2rem;
+}
+
+.header__buttons-container {
+  display: none;
 }
 
 .destination-card-container {
@@ -101,7 +105,7 @@
   text-transform: uppercase;
 }
 
-.buttons-container {
+.bottom-buttons-container {
   display: flex;
   gap: 2.5rem;
   justify-content: center;
