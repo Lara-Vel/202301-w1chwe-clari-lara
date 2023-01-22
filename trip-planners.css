@@ -102,3 +102,48 @@
   display: flex;
   gap: 0.25rem;
 }
+
+@media (min-width: 1440px) {
+  .trip-planners-section {
+    padding: 8.75rem 2rem;
+    gap: 6.25rem;
+  }
+
+  .title__main-heading {
+    font-size: 4rem;
+  }
+
+  .title__sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .header__buttons-container {
+    display: flex;
+    align-self: flex-end;
+    gap: 2.5rem;
+  }
+
+  .grouped-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 2rem;
+    order: 0;
+  }
+
+  .trip__description--hidden {
+    display: none;
+  }
+
+  .trip__image {
+    border-radius: 1.625rem;
+    object-fit: cover;
+    width: 20rem;
+    height: 29.3rem;
+  }
+
+  .more-info-button {
+    order: 1;
+  }
+}
