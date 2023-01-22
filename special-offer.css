@@ -1,0 +1,199 @@
+.special-offer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  padding: 5rem 1rem;
+}
+
+.header__title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title__main-heading {
+  width: fit-content;
+  border-bottom: 3px solid #ff7757;
+  padding-bottom: 1.25rem;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #172432;
+}
+
+.title__sub-heading {
+  font-family: Rubik;
+  color: #767e86;
+  font-size: 1.2rem;
+}
+
+.header__buttons-container {
+  display: none;
+}
+
+.destination-card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.625rem;
+  background-color: #fff8f1;
+  padding-bottom: 1.25rem;
+}
+
+.card__image {
+  border-radius: 1.625rem 1.625rem 0rem 0rem;
+}
+
+.card-header-container,
+.card__destination-description,
+.card__more-info {
+  padding: 1.25rem 1.25rem 0;
+  font-family: "Rubik";
+}
+
+.card-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.card-header__title {
+  font-family: Mulish;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #767e86;
+}
+
+.fa-star {
+  color: #ffc107;
+}
+
+.card__destination-description {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #172432;
+}
+
+.card__more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.card__text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  color: #767e86;
+}
+
+.card__price {
+  font-size: 2rem;
+  color: #ff7757;
+}
+
+.card__button {
+  background-color: #ff7654;
+  color: #ffff;
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.bottom-buttons-container {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.buttons__left-slider {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.athens-container,
+.rome-container {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .special-offer-section {
+    padding: 8.75rem 2rem;
+  }
+
+  .bottom-buttons-container {
+    display: none;
+  }
+
+  .section-header-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .header__buttons-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 2.5rem;
+  }
+
+  .header__title-container {
+    align-items: flex-end;
+  }
+
+  .title__main-heading {
+    font-size: 4rem;
+  }
+
+  .title__sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .grouped-cards-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .card__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 27.3rem;
+    height: 18rem;
+    object-fit: cover;
+  }
+
+  .card-header-container,
+  .card__destination-description,
+  .card__more-info {
+    padding: 1.25rem 0 0;
+  }
+
+  .card__information {
+    padding: 1.5rem;
+  }
+
+  .athens-container,
+  .rome-container {
+    display: flex;
+  }
+
+  .card__more-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card__text {
+    font-size: 1.25rem;
+  }
+
+  .card__price {
+    font-size: 2.5rem;
+  }
+}
