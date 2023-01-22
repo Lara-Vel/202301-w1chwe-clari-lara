@@ -25,9 +25,26 @@
   font-size: 2rem;
 }
 
-.header-container__checkbox,
-.nav-bar {
+.header-container__checkbox {
   display: none;
+}
+
+.header-container__checkbox:checked ~ .nav-bar {
+  left: 0;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  width: 80%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding: 1rem 0.5rem 0 1rem;
+  transition: all 0.5s ease;
 }
 
 @media (min-width: 1440px) {
