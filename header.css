@@ -101,15 +101,23 @@
   .nav-bar {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    width: 65%;
-    height: 4rem;
-    font-size: 1.25rem;
+    gap: 2rem;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: fit-content;
+    background-color: #ffffff00;
+    padding: 0;
+    transition: all 0.5s ease;
   }
 
   .nav-list {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 26rem;
@@ -120,8 +128,13 @@
     color: rgb(255, 255, 255);
   }
 
+  .user-access__separator {
+    display: none;
+  }
+
   .user-access-container {
     display: flex;
+    flex-direction: row;
     gap: 2.25rem;
     width: 14rem;
   }

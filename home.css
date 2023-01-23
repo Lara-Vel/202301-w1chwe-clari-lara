@@ -105,10 +105,9 @@
 @media (min-width: 1440px) {
   .home-section {
     background-position: absolute;
-    top: 0;
     background-size: auto;
-    background-position-y: center;
-    background-position-x: center;
+    background-position-y: 90rem;
+    background-position-x: left;
     height: auto;
     padding-bottom: 6.25rem;
   }
