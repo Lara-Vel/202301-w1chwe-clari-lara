@@ -2,9 +2,9 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/assets/main-background-image.png");
   background-position: absolute;
-  top: 0;
-  background-size: 460%;
-  background-position-y: bottom;
+  /* top: 0; */
+  /* background-size: 460%; */
+  background-position-y: 65%;
   height: auto;
   padding-bottom: 6.25rem;
 }
