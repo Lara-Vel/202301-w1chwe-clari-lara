@@ -8,6 +8,10 @@
   padding: 1rem;
 }
 
+.title__page {
+  max-width: 73%;
+}
+
 .title__page h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.7rem;
@@ -16,20 +20,21 @@
 }
 
 .title__page .title__paragraph {
+  font-family: "Rubik", sans-serif;
   font-size: 1rem;
   color: #767e86;
-  padding-top: 0.7rem;
+  padding-top: 1.5rem;
 }
 
 .title__page .divider {
-  width: 30%;
+  width: 65%;
   height: 2px;
   background: #ff7757;
 }
 
 .title__image {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   margin: auto;
@@ -38,8 +43,8 @@
 
 .title__image .titleimage-img {
   position: relative;
-  width: 288px;
-  height: 320px;
+  width: 342px;
+  height: 350px;
   border-radius: 1rem;
 }
 
